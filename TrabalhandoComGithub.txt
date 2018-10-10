@@ -1,0 +1,33 @@
+Copie o arquivo que voce quer baixar no pc;
+abra a pasta onde vai ficar os projetos;
+direito no mause (Git Bash Here){
+      Escrever : git clone (colar o arquivo que copiou do git hub);
+   }
+
+Após o download {
+     // cd --> Muda de pastas
+     cd (nome do arquivo instalado);
+     ls --> mostra os arquivos que esta na pasta;
+     ls -lh --> Mostra os arquivos em uma forma mais humanizada{
+               1º-rw- -->Usuario
+               2º r-- -->Grupos de Amigos
+               3º r-- -->Todo o mundo
+     }
+
+}
+
+~/ --> Mostra que voce esta na sua pasta pessoal
+pwd --> Fala em qual pasta voce esta
+
+após fazer alguma modificação no arquivo{
+    (Git Bash Here){
+        git status --> avisa que voce fes uma modificação no código;
+        git add . --> Adiciona na master, ou seja, na linha do tempo todos os arquivos da pasta atual;
+        git commit -m "" --> Adiciona um comentário ao novo arquivo modificado{
+              após dar enter, não esquecer de modificar o email e a senha do resultado para o email e a senha do Github;
+              depois, novamente escrever o código git commit -m "comentario" e dar entre;
+        }
+        git push --> faz o arquivo novamente subir para o github, mas agora modificado.
+          
+    }
+}
