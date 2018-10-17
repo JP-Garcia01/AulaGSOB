@@ -1,0 +1,8 @@
+git config --global user.email xx.jpgarcia3.xx@gmail.com - Login 
+
+$ git config --global user.name "JP-Garcia01" - verificação de nome
+
+git add. - Adiciona na timeline
+git commit - m"descrição"
+
+git push - upload
